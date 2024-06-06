@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-change</title>
+    <style>
+       .square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 40vh;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  width: 100px; 
+  height: 100px;
+  display: block;
+  background-color: #ccc; 
+  border: 1px solid #666; 
+  margin: 10px; 
+  border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+    }
+    #green{
+        background-color: green;
+        }
+#yellow{
+    background-color: yellow;
+}
+       
+         
+    </style> 
+</head>
+<div class="square-container">
+    <h1>Color-Changer</h1>
+    <div class="button" id="red"></div>
+    <div class="button" id="green"></div>
+    <div class="button" id="yellow"></div>
+    <div class="button" id="blue"></div>
+    <span>Tap on the color to change the background color<span>
+  </div>
+  <script src="color.js"></script>
+</body>
+</html>
